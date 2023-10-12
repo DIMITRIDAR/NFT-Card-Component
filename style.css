@@ -40,3 +40,23 @@ body {
   font-weight: 600;
   margin-top: 2.4rem;
 }
+
+.description {
+  width: 27.8rem;
+  color: #8bacd9;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.6rem;
+  margin-top: 1.2rem;
+}
+
+.price-trial {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eth {
+  color: #00fff8;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
