@@ -67,18 +67,18 @@ body {
 
 .eth {
   color: #00fff8;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 .period {
   color: #8bacd9;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
 .line {
-  margin-top: 2.4rem;
+  margin-top: 1.6rem;
   background-color: #2e405a;
   height: 0.1rem;
   border: none;
@@ -100,7 +100,7 @@ body {
 
 .first-part {
   color: #8bacd9;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 
@@ -129,4 +129,33 @@ body {
   top: 0;
   left: 0;
   border-radius: 0.8rem;
+}
+
+@media only screen and (min-width: 1440px) {
+  .card {
+    width: 35rem;
+  }
+  .description {
+    margin-top: 1.6rem;
+  }
+  .price-trial {
+    margin-top: 2.4rem;
+  }
+  .price-trial div {
+    gap: 0.77rem;
+  }
+  .eth {
+    font-size: 1.6rem;
+  }
+
+  .period {
+    font-size: 1.6rem;
+  }
+  .line {
+    margin-top: 2.4rem;
+  }
+
+  .first-part {
+    font-size: 1.5rem;
+  }
 }
