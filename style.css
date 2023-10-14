@@ -39,6 +39,12 @@ body {
   margin-top: 2.4rem;
 }
 
+.header:hover {
+  color: #00fff8;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
 .description {
   color: #8bacd9;
   font-size: 1.8rem;
@@ -100,4 +106,27 @@ body {
 
 .second-part {
   color: #fff;
+}
+
+.second-part:hover {
+  color: #00fff8;
+  transition: 0.5s;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay :hover::before {
+  content: "";
+  background-image: url("./assets/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 255, 248, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.8rem;
 }
