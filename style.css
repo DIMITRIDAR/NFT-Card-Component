@@ -117,7 +117,7 @@ body {
   position: relative;
 }
 
-.overlay :hover::before {
+.overlay:hover::before {
   content: "";
   background-image: url("./assets/icon-view.svg");
   background-repeat: no-repeat;
